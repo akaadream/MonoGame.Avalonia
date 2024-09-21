@@ -1,7 +1,10 @@
 # MonoGame Avalonia Example
 
 ## Usage
-1. Add reference to `MonoGame.Avalonia` project
+1. Install the library using the [NuGet package](https://www.nuget.org/packages/MonoGame.Avalonia/1.0.0):
+```
+dotnet add package MonoGame.Avalonia --version 1.0.0
+```
 2. Add `Game` Property to ViewModel with new instance of game to run
 3. Add `MonoGameControl` to view
 
